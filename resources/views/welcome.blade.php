@@ -14,10 +14,14 @@
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="57">
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top text-white" style="background-color: transparent;">
         <div class="container">
+            <a class="navbar-brand" href="#page-top">
+                <img src="{{ asset('dashboard/img/BITSLOGO.jpeg') }}" alt="BITS Logo" class="img-fluid" style="max-width: 50px; border-radius: 50%;">
+            </a>
+
             <!-- Navbar Toggler for Mobile -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-align-justify"></i>
             </button>
 
@@ -26,24 +30,26 @@
                 <ul class="navbar-nav ms-auto text-center">
                     <!-- Dropdown Menu -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             About
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#faculty-staff">Faculty & Staff</a></li>
-                            <li><a class="dropdown-item" href="#organizational-charts">Organizational Charts</a></li>
-                            <li><a class="dropdown-item" href="#mission-vision">Mission & Vision</a></li>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-white" href="#faculty-staff">Faculty & Staff</a></li>
+                            <li><a class="dropdown-item text-white" href="#organizational-charts">Organizational Charts</a></li>
+                            <li><a class="dropdown-item text-white" href="#mission-vision">Mission & Vision</a></li>
                         </ul>
                     </li>
 
                     <!-- Other Navbar Items -->
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+
+
 
     <header id="carouselHeader" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -98,7 +104,8 @@
             </div>
         </div>
     </section>
-    <section id="services">
+    <section id="services" style="background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
