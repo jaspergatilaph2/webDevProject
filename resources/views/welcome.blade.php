@@ -7,7 +7,7 @@
     <title>Southern Leyte State U - Bontoc Campus</title>
     <link rel="stylesheet"
         href="{{asset('dashboard/bootstrap/css/bootstrap.min.css?h=012df120f3b0c7b81bee90c64257b484')}}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
     <link rel="stylesheet" href="{{asset('dashboard/css/styles.min.css?h=da10d2cad830becf02e68a25f1c16321')}}">
@@ -82,13 +82,13 @@
             <div class="container my-auto">
                 <div class="row">
                     <div class="col-lg-10 mx-auto">
-                        <h1 class="text-uppercase"><strong>Your Favorite Source of Free Bootstrap Themes</strong></h1>
+                        <h1 class="text-uppercase"><strong>Welcome To Bontoc Info Tech Society</strong></h1>
                         <hr>
                     </div>
                 </div>
                 <div class="col-lg-8 mx-auto">
-                    <p class="text-faded mb-5">We can help you build better websites using the Bootstrap CSS framework!
-                        Just download your template and start going, no strings attached!</p>
+                    <p class="text-faded mb-5 h2">"Bontoc Information Technology Society: Empowering Innovation and
+                        Connectivity"</p>
                     <a class="btn btn-primary btn-xl mt-3" role="button" href="#services">Find Out More</a>
 
                     <!-- Video Trigger Button -->
@@ -105,7 +105,7 @@
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="videoModalLabel">Video</h5>
+                        <h5 class="modal-title" id="videoModalLabel">Bontoc Info Tech Society</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -129,39 +129,52 @@
         </a>
     </header>
 
-    <section id="about" class="bg-primary">
-        <div class="container mt-5">
+    <section id="about" class="bg-secondary">
+        <div class="container">
             <div class="row flex-column align-items-center">
-                <div class="col text-center mb-4" id="faculty-staff">
-                    <h2 class="text-white section-heading">Faculty & Staff</h2>
+                <div class="col-lg-6 col-md-8 col-sm-10 mx-auto">
+                    <h1 class="text-center mb-3">Faculty & Staff</h1>
+                    <div
+                        class="card bg-dark text-white p-4 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
+
+                        <div class="col-12 col-md-5 text-center mb-3 mb-md-0">
+                            <img src="{{ asset('dashboard/img/faculty/16.1.jpg') }}" alt="Sherwin G. Caday"
+                                class="img-fluid rounded">
+                            <h3 class="mt-3 fw-bold">Sherwin G. Caday</h3>
+                            <p class="mb-1">Assistant Professor IV</p>
+                            <p class="mb-0">
+                                <i class="fa-solid fa-envelope"></i> scaday@southernleytestateu.edu.ph
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-7 ps-md-4">
+                            <hr class="light my-3 d-md-none">
+                            <h4 class="fw-bold">Expertise</h4>
+                            <p>GIS Remote Sensing</p>
+                            <h4 class="fw-bold mt-3">Educational Attainment</h4>
+                            <p>PhD Technology Management (CAR)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col text-center mb-4">
                     <hr class="light my-4">
                     <p class="text-faded mb-4">Bootstrap has everything you need to get your new website up and running
                         in no time! All of the templates and themes are open source, free to download, and easy to use.
                         No strings attached!</p>
                 </div>
                 <div class="col text-center mb-4">
-                    <h2 class="text-white section-heading">Faculty & Staff</h2>
                     <hr class="light my-4">
                     <p class="text-faded mb-4">Bootstrap has everything you need to get your new website up and running
                         in no time! All of the templates and themes are open source, free to download, and easy to use.
                         No strings attached!</p>
                 </div>
                 <div class="col text-center mb-4">
-                    <h2 class="text-white section-heading">Faculty & Staff</h2>
                     <hr class="light my-4">
                     <p class="text-faded mb-4">Bootstrap has everything you need to get your new website up and running
                         in no time! All of the templates and themes are open source, free to download, and easy to use.
                         No strings attached!</p>
                 </div>
                 <div class="col text-center mb-4">
-                    <h2 class="text-white section-heading">Faculty & Staff</h2>
-                    <hr class="light my-4">
-                    <p class="text-faded mb-4">Bootstrap has everything you need to get your new website up and running
-                        in no time! All of the templates and themes are open source, free to download, and easy to use.
-                        No strings attached!</p>
-                </div>
-                <div class="col text-center mb-4">
-                    <h2 class="text-white section-heading">Faculty & Staff</h2>
                     <hr class="light my-4">
                     <p class="text-faded mb-4">Bootstrap has everything you need to get your new website up and running
                         in no time! All of the templates and themes are open source, free to download, and easy to use.
@@ -295,12 +308,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 21%, rgba(
                     <p>123-456-6789</p>
                 </div>
                 <div class="col-lg-4 text-center ms-auto">
-                    <i class="fa fa-facebook fa-3x mb-3" data-aos="zoom-in" data-aos-duration="300"
+                    <i class="fab fa-facebook-f fa-3x mb-3" data-aos="zoom-in" data-aos-duration="300"
                         data-aos-once="true"></i>
                     <p><a href="https://www.facebook.com/slsubitsofficial" class="text-dark"
                             style="text-decoration:none; text-transform:uppercase;">slsubitsofficial</a></p>
                 </div>
-                <div class="col-lg-4 text-center me-auto"><i class="fa fa-envelope-o fa-3x mb-3 sr-contact"
+                <div class="col-lg-4 text-center me-auto"><i class="fa-solid fa-envelope fa-3x mb-3 sr-contact"
                         data-aos="zoom-in" data-aos-duration="300" data-aos-delay="300" data-aos-once="true"></i>
                     <p><a href="mailto:your-email@your-domain.com">email@example.com</a></p>
                 </div>
