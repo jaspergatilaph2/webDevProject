@@ -92,8 +92,8 @@
                     <a class="btn btn-primary btn-xl mt-3" role="button" href="#services">Find Out More</a>
 
                     <!-- Video Trigger Button -->
-                    <button type="button" class="btn btn-secondary btn-xl mt-3" data-bs-toggle="modal"
-                        data-bs-target="#videoModal" >
+                    <button type="button" class="btn btn-primary btn-xl mt-3" data-bs-toggle="modal"
+                        data-bs-target="#videoModal">
                         Watch Video
                     </button>
                 </div>
@@ -130,15 +130,42 @@
     </header>
 
     <section id="about" class="bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col offset-lg-8 text-center mx-auto">
-                    <h2 class="text-white section-heading">We've got what you need!</h2>
+        <div class="container mt-5">
+            <div class="row flex-column align-items-center">
+                <div class="col text-center mb-4" id="faculty-staff">
+                    <h2 class="text-white section-heading">Faculty & Staff</h2>
                     <hr class="light my-4">
                     <p class="text-faded mb-4">Bootstrap has everything you need to get your new website up and running
                         in no time! All of the templates and themes are open source, free to download, and easy to use.
-                        No strings attached!</p><a class="btn btn-light btn-xl" role="button" href="#services">Get
-                        Started!</a>
+                        No strings attached!</p>
+                </div>
+                <div class="col text-center mb-4">
+                    <h2 class="text-white section-heading">Faculty & Staff</h2>
+                    <hr class="light my-4">
+                    <p class="text-faded mb-4">Bootstrap has everything you need to get your new website up and running
+                        in no time! All of the templates and themes are open source, free to download, and easy to use.
+                        No strings attached!</p>
+                </div>
+                <div class="col text-center mb-4">
+                    <h2 class="text-white section-heading">Faculty & Staff</h2>
+                    <hr class="light my-4">
+                    <p class="text-faded mb-4">Bootstrap has everything you need to get your new website up and running
+                        in no time! All of the templates and themes are open source, free to download, and easy to use.
+                        No strings attached!</p>
+                </div>
+                <div class="col text-center mb-4">
+                    <h2 class="text-white section-heading">Faculty & Staff</h2>
+                    <hr class="light my-4">
+                    <p class="text-faded mb-4">Bootstrap has everything you need to get your new website up and running
+                        in no time! All of the templates and themes are open source, free to download, and easy to use.
+                        No strings attached!</p>
+                </div>
+                <div class="col text-center mb-4">
+                    <h2 class="text-white section-heading">Faculty & Staff</h2>
+                    <hr class="light my-4">
+                    <p class="text-faded mb-4">Bootstrap has everything you need to get your new website up and running
+                        in no time! All of the templates and themes are open source, free to download, and easy to use.
+                        No strings attached!</p>
                 </div>
             </div>
         </div>
@@ -288,7 +315,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 21%, rgba(
     <script src="{{asset('background/js/dropdown.js')}}"></script>
     <script src="{{asset('background/js/navbar.js')}}"></script>
     <script src="{{ asset('dashboard/js/video.js') }}"></script>
-
+    <script src="{{ asset('dashboard/js/smoothScrolling.js') }}"></script>
 </body>
 
 </html>
