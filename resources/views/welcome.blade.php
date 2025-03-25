@@ -39,7 +39,7 @@
                             data-bs-toggle="dropdown" aria-expanded="false">
                             About
                         </a>
-                        <ul class="dropdown-menu bg-dark text-center w-100" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu bg-dark text-center w-105" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item text-white" href="#faculty-staff">Faculty & Staff</a></li>
                             <li><a class="dropdown-item text-white" href="#organizational-charts">Organizational
                                     Charts</a></li>
@@ -89,7 +89,31 @@
                 <div class="col-lg-8 mx-auto">
                     <p class="text-faded mb-5">We can help you build better websites using the Bootstrap CSS framework!
                         Just download your template and start going, no strings attached!</p>
-                    <a class="btn btn-primary btn-xl" role="button" href="#services">Find Out More</a>
+                    <a class="btn btn-primary btn-xl mt-3" role="button" href="#services">Find Out More</a>
+
+                    <!-- Video Trigger Button -->
+                    <button type="button" class="btn btn-secondary btn-xl mt-3" data-bs-toggle="modal"
+                        data-bs-target="#videoModal" >
+                        Watch Video
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Modal -->
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="videoModalLabel">Video</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <video id="modalVideo" width="100%" height="auto" controls>
+                            <source src="{{ asset('dashboard/video/Bontoc-Info-Tech.mp4') }}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
@@ -246,7 +270,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 21%, rgba(
                 <div class="col-lg-4 text-center ms-auto">
                     <i class="fa fa-facebook fa-3x mb-3" data-aos="zoom-in" data-aos-duration="300"
                         data-aos-once="true"></i>
-                    <p><a href="https://www.facebook.com/slsubitsofficial" class="text-dark" style="text-decoration:none; text-transform:uppercase;">slsubitsofficial</a></p>
+                    <p><a href="https://www.facebook.com/slsubitsofficial" class="text-dark"
+                            style="text-decoration:none; text-transform:uppercase;">slsubitsofficial</a></p>
                 </div>
                 <div class="col-lg-4 text-center me-auto"><i class="fa fa-envelope-o fa-3x mb-3 sr-contact"
                         data-aos="zoom-in" data-aos-duration="300" data-aos-delay="300" data-aos-once="true"></i>
@@ -262,6 +287,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 21%, rgba(
     <script src="{{asset('dashboard/js/script.js')}}"></script>
     <script src="{{asset('background/js/dropdown.js')}}"></script>
     <script src="{{asset('background/js/navbar.js')}}"></script>
+    <script src="{{ asset('dashboard/js/video.js') }}"></script>
 
 </body>
 
