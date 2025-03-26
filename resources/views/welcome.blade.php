@@ -131,58 +131,108 @@
 
     <section id="about" class="bg-secondary">
         <div class="container">
-            <div class="row flex-column align-items-center">
-                <div class="col-lg-6 col-md-8 col-sm-10 mx-auto">
-                    <h1 class="text-center mb-3">Faculty & Staff</h1>
-                    <div
-                        class="card bg-dark text-white p-4 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
-
-                        <div class="col-12 col-md-5 text-center mb-3 mb-md-0">
-                            <img src="{{ asset('dashboard/img/faculty/16.1.jpg') }}" alt="Sherwin G. Caday"
-                                class="img-fluid rounded">
-                            <h3 class="mt-3 fw-bold">Sherwin G. Caday</h3>
-                            <p class="mb-1">Assistant Professor IV</p>
-                            <p class="mb-0">
-                                <i class="fa-solid fa-envelope"></i> scaday@southernleytestateu.edu.ph
-                            </p>
+            <h1 class="text-center mb-3" id="faculty-staff">Faculty & Staff</h1>
+            <div id="facultyCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div
+                            class="card bg-dark text-white p-4 d-flex flex-column flex-md-row align-items-center text-center text-md-start w-100">
+                            <div class="col-12 col-md-5 text-center mb-3 mb-md-0">
+                                <img src="{{ asset('dashboard/img/faculty/16.2.jpeg') }}" alt="Sherwin G. Caday"
+                                    class="img-fluid rounded">
+                                <h3 class="mt-3 fw-bold">Sherwin G. Caday</h3>
+                                <p class="mb-1">Assistant Professor IV</p>
+                                <p class="mb-0"><i class="fa-solid fa-envelope"></i> scaday@southernleytestateu.edu.ph
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-7 ps-md-4">
+                                <hr class="light my-3 d-md-none">
+                                <h4 class="fw-bold">Expertise</h4>
+                                <p>GIS Remote Sensing</p>
+                                <h4 class="fw-bold mt-3">Educational Attainment</h4>
+                                <p>PhD Technology Management (CAR)</p>
+                            </div>
                         </div>
-                        <div class="col-12 col-md-7 ps-md-4">
-                            <hr class="light my-3 d-md-none">
-                            <h4 class="fw-bold">Expertise</h4>
-                            <p>GIS Remote Sensing</p>
-                            <h4 class="fw-bold mt-3">Educational Attainment</h4>
-                            <p>PhD Technology Management (CAR)</p>
+                    </div>
+                    <div class="carousel-item">
+                        <div
+                            class="card bg-dark text-white p-4 d-flex flex-column flex-md-row align-items-center text-center text-md-start w-100">
+                            <div class="col-12 col-md-5 text-center mb-3 mb-md-0">
+                                <img src="{{ asset('dashboard/img/faculty/16.3.jpeg') }}" alt="Rexal Toledo"
+                                    class="img-fluid rounded">
+                                <h3 class="mt-3 fw-bold">Rexal Toledo</h3>
+                                <p class="mb-1">Assistant Professor IV</p>
+                                <p class="mb-0"><i class="fa-solid fa-envelope"></i> scaday@southernleytestateu.edu.ph
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-7 ps-md-4">
+                                <hr class="light my-3 d-md-none">
+                                <h4 class="fw-bold">Expertise</h4>
+                                <p>GIS Remote Sensing</p>
+                                <h4 class="fw-bold mt-3">Educational Attainment</h4>
+                                <p>PhD Technology Management (CAR)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div
+                            class="card bg-dark text-white p-4 d-flex flex-column flex-md-row align-items-center text-center text-md-start w-100">
+                            <div class="col-12 col-md-5 text-center mb-3 mb-md-0">
+                                <img src="{{ asset('dashboard/img/faculty/16.4.jpeg') }}" alt="Junnie Ryh Sumacot"
+                                    class="img-fluid rounded">
+                                <h3 class="mt-3 fw-bold">Junnie Ryh Sumacot</h3>
+                                <p class="mb-1">Assistant Professor IV</p>
+                                <p class="mb-0"><i class="fa-solid fa-envelope"></i> scaday@southernleytestateu.edu.ph
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-7 ps-md-4">
+                                <hr class="light my-3 d-md-none">
+                                <h4 class="fw-bold">Expertise</h4>
+                                <p>GIS Remote Sensing</p>
+                                <h4 class="fw-bold mt-3">Educational Attainment</h4>
+                                <p>PhD Technology Management (CAR)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div
+                            class="card bg-dark text-white p-4 d-flex flex-column flex-md-row align-items-center text-center text-md-start w-100">
+                            <div class="col-12 col-md-5 text-center mb-3 mb-md-0">
+                                <img src="{{ asset('dashboard/img/faculty/17.1.jpeg') }}" alt="Junnie Ryh Sumacot"
+                                    class="img-fluid rounded">
+                                <h3 class="mt-3 fw-bold">Junnie Ryh Sumacot</h3>
+                                <p class="mb-1">Assistant Professor IV</p>
+                                <p class="mb-0"><i class="fa-solid fa-envelope"></i> scaday@southernleytestateu.edu.ph
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-7 ps-md-4">
+                                <hr class="light my-3 d-md-none">
+                                <h4 class="fw-bold">Expertise</h4>
+                                <p>GIS Remote Sensing</p>
+                                <h4 class="fw-bold mt-3">Educational Attainment</h4>
+                                <p>PhD Technology Management (CAR)</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#facultyCarousel"
+                    data-bs-slide="prev" style="background-color: rgb(255, 255, 255); width: 50px; height: 50px; border-radius: 50%;
+    position: absolute; top: 50%; transform: translateY(-50%); left: 10px;">
+                    <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(1);"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#facultyCarousel"
+                    data-bs-slide="next" style="background-color: rgb(255, 255, 255); width: 50px; height: 50px; border-radius: 50%;
+    position: absolute; top: 50%; transform: translateY(-50%); right: 10px;">
+                    <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(1);"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
 
-                <div class="col text-center mb-4">
-                    <hr class="light my-4">
-                    <p class="text-faded mb-4">Bootstrap has everything you need to get your new website up and running
-                        in no time! All of the templates and themes are open source, free to download, and easy to use.
-                        No strings attached!</p>
-                </div>
-                <div class="col text-center mb-4">
-                    <hr class="light my-4">
-                    <p class="text-faded mb-4">Bootstrap has everything you need to get your new website up and running
-                        in no time! All of the templates and themes are open source, free to download, and easy to use.
-                        No strings attached!</p>
-                </div>
-                <div class="col text-center mb-4">
-                    <hr class="light my-4">
-                    <p class="text-faded mb-4">Bootstrap has everything you need to get your new website up and running
-                        in no time! All of the templates and themes are open source, free to download, and easy to use.
-                        No strings attached!</p>
-                </div>
-                <div class="col text-center mb-4">
-                    <hr class="light my-4">
-                    <p class="text-faded mb-4">Bootstrap has everything you need to get your new website up and running
-                        in no time! All of the templates and themes are open source, free to download, and easy to use.
-                        No strings attached!</p>
-                </div>
             </div>
         </div>
     </section>
+
+
     <section id="services" style="background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);">
         <div class="container">
@@ -210,8 +260,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 21%, rgba(
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 text-center">
-                    <div class="mx-auto service-box mt-5"><i class="fa fa-newspaper-o fa-4x text-primary mb-3 sr-icons"
-                            data-aos="zoom-in" data-aos-duration="200" data-aos-delay="400" data-aos-once="true"></i>
+                    <div class="mx-auto service-box mt-5"><i
+                            class="fa-solid fa-newspaper fa-4x text-primary mb-3 sr-icons" data-aos="zoom-in"
+                            data-aos-duration="200" data-aos-delay="400" data-aos-once="true"></i>
                         <h3 class="mb-3">Up to Date</h3>
                         <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
                     </div>
