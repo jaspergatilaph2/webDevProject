@@ -39,11 +39,12 @@
                             data-bs-toggle="dropdown" aria-expanded="false">
                             About
                         </a>
-                        <ul class="dropdown-menu bg-dark text-center w-105" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item text-white" href="#faculty-staff">Faculty & Staff</a></li>
-                            <li><a class="dropdown-item text-white" href="#organizational-charts">Organizational
+                        <ul class="dropdown-menu bg-white text-center w-105" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-dark" href="#faculty-staff">Faculty & Staff</a></li>
+                            <li><a class="dropdown-item text-dark" href="#organizational-charts">Organizational
                                     Charts</a></li>
-                            <li><a class="dropdown-item text-white" href="#mission-vision">Mission & Vision</a></li>
+                            <li><a class="dropdown-item text-dark" href="#mission-vision">Teams</a></li>
+                            <li><a class="dropdown-item text-dark" href="#mission-vision">Mission & Vision</a></li>
                         </ul>
                     </li>
 
@@ -129,7 +130,8 @@
         </a>
     </header>
 
-    <section id="about" class="bg-secondary">
+    <section id="about" style="background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);">
         <div class="container">
             <h1 class="text-center mb-3" id="faculty-staff">Faculty & Staff</h1>
             <div id="facultyCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -147,8 +149,11 @@
                             </div>
                             <div class="col-12 col-md-7 ps-md-4">
                                 <hr class="light my-3 d-md-none">
-                                <h4 class="fw-bold">Expertise</h4>
-                                <p>GIS Remote Sensing</p>
+                                <h4 class="fw-bold" style="color:#fc466b;">Quotes</h4>
+                                <p>"Information Technology is at the heart of every breakthrough, transforming
+                                    industries and revolutionizing the way we interact with the world. It bridges gaps,
+                                    drives efficiency, and fuels innovation across the globe. With IT, the future is
+                                    now."</p>
                                 <h4 class="fw-bold mt-3">Educational Attainment</h4>
                                 <p>PhD Technology Management (CAR)</p>
                             </div>
@@ -167,8 +172,11 @@
                             </div>
                             <div class="col-12 col-md-7 ps-md-4">
                                 <hr class="light my-3 d-md-none">
-                                <h4 class="fw-bold">Expertise</h4>
-                                <p>GIS Remote Sensing</p>
+                                <h4 class="fw-bold" style="color: #fc466b;">Quotes</h4>
+                                <p>"In the digital age, Information Technology is the foundation upon which we build
+                                    progress and creativity. It connects us, empowers us, and opens doors to endless
+                                    possibilities. IT is not just about systems, but about shaping a smarter, more
+                                    efficient world."</p>
                                 <h4 class="fw-bold mt-3">Educational Attainment</h4>
                                 <p>PhD Technology Management (CAR)</p>
                             </div>
@@ -187,28 +195,11 @@
                             </div>
                             <div class="col-12 col-md-7 ps-md-4">
                                 <hr class="light my-3 d-md-none">
-                                <h4 class="fw-bold">Expertise</h4>
-                                <p>GIS Remote Sensing</p>
-                                <h4 class="fw-bold mt-3">Educational Attainment</h4>
-                                <p>PhD Technology Management (CAR)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div
-                            class="card bg-dark text-white p-4 d-flex flex-column flex-md-row align-items-center text-center text-md-start w-100">
-                            <div class="col-12 col-md-5 text-center mb-3 mb-md-0">
-                                <img src="{{ asset('dashboard/img/faculty/17.1.jpeg') }}" alt="Junnie Ryh Sumacot"
-                                    class="img-fluid rounded">
-                                <h3 class="mt-3 fw-bold">Junnie Ryh Sumacot</h3>
-                                <p class="mb-1">Assistant Professor IV</p>
-                                <p class="mb-0"><i class="fa-solid fa-envelope"></i> scaday@southernleytestateu.edu.ph
-                                </p>
-                            </div>
-                            <div class="col-12 col-md-7 ps-md-4">
-                                <hr class="light my-3 d-md-none">
-                                <h4 class="fw-bold">Expertise</h4>
-                                <p>GIS Remote Sensing</p>
+                                <h4 class="fw-bold" style="color: #fc466b;">Quotes</h4>
+                                <p>"Information Technology is the engine that accelerates the pace of change, making
+                                    once-impossible ideas a reality. It’s the driving force behind global connectivity,
+                                    turning data into powerful insights. As IT continues to evolve, so does our ability
+                                    to innovate."</p>
                                 <h4 class="fw-bold mt-3">Educational Attainment</h4>
                                 <p>PhD Technology Management (CAR)</p>
                             </div>
@@ -216,22 +207,18 @@
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#facultyCarousel"
-                    data-bs-slide="prev" style="background-color: rgb(255, 255, 255); width: 50px; height: 50px; border-radius: 50%;
-    position: absolute; top: 50%; transform: translateY(-50%); left: 10px;">
-                    <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(1);"></span>
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#facultyCarousel"
-                    data-bs-slide="next" style="background-color: rgb(255, 255, 255); width: 50px; height: 50px; border-radius: 50%;
-    position: absolute; top: 50%; transform: translateY(-50%); right: 10px;">
-                    <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(1);"></span>
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-
             </div>
         </div>
     </section>
-
 
     <section id="services" style="background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);">
@@ -279,45 +266,50 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 21%, rgba(
     </section>
     <section id="portfolio" class="p-0">
         <div class="container-fluid p-0">
+            <!-- Header Title -->
+            <div class="text-center py-4">
+                <h2 class="text-uppercase fw-bold">Officers</h2>
+            </div>
+
             <div class="row g-0 popup-gallery">
                 <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href=""><img class="img-fluid"
-                            src="{{ asset('dashboard/img/fullsize/1.jpg') }}">
+                            src="{{ asset('dashboard/img/officers/17.4.jpeg') }}">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Category</span></div>
-                                <div class="project-name"><span>Project Name</span></div>
+                                <div class="project-category text-faded"><span>Mark angelo Lasala</span></div>
+                                <div class="project-name"><span>President</span></div>
                             </div>
                         </div>
                     </a></div>
                 <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href=""><img class="img-fluid"
-                            src="{{ asset('dashboard/img/fullsize/2.jpg') }}">
+                            src="{{ asset('dashboard/img/Officers/17.5.jpeg') }}">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Category</span></div>
-                                <div class="project-name"><span>Project Name</span></div>
+                                <div class="project-category text-faded"><span>Jessica Flores</span></div>
+                                <div class="project-name"><span>Secretary</span></div>
                             </div>
                         </div>
                     </a></div>
                 <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href=""><img class="img-fluid"
-                            src="{{ asset('dashboard/img/fullsize/3.jpg') }}">
+                            src="{{ asset('dashboard/img/Officers/17.2.jpeg') }}">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Category</span></div>
-                                <div class="project-name"><span>Project Name</span></div>
+                                <div class="project-category text-faded"><span>Marivel Bermiso</span></div>
+                                <div class="project-name"><span>Tresurer</span></div>
+                            </div>
+                        </div>S
+                    </a></div>
+                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href=""><img class="img-fluid"
+                            src="{{ asset('dashboard/img/Officers/17.8.jpeg') }}">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded"><span>John Brunz Camarista</span></div>
+                                <div class="project-name"><span>1A Representative</span></div>
                             </div>
                         </div>
                     </a></div>
                 <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href=""><img class="img-fluid"
-                            src="{{ asset('dashboard/img/fullsize/4.jpg') }}">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Category</span></div>
-                                <div class="project-name"><span>Project Name</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href=""><img class="img-fluid"
-                            src="{{ asset('dashboard/img/fullsize/5.jpg') }}">
+                            src="{{ asset('dashboard/img/Officers') }}">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded"><span>Category</span></div>
@@ -337,6 +329,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 21%, rgba(
             </div>
         </div>
     </section>
+
     <section class="text-white bg-dark">
         <div class="container text-center">
             <h2 class="mb-4">Lorem Ipsum!</h2><a class="btn btn-light btn-xl sr-button" role="button" data-aos="zoom-in"
